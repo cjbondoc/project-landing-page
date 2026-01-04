@@ -71,6 +71,7 @@ h3 {
 
 .top-bar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0;
@@ -79,7 +80,7 @@ h3 {
 
 .nav-links {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -90,23 +91,22 @@ h3 {
     padding: 48px 48px 64px;
     display: flex;
     align-items: center;
-    gap: 32px;
+    flex-wrap: wrap;
+    gap: 16px;
     margin: 0 64px;
 }
 
 .hero-sub {
-    flex: 1;
+    flex: 1 0 0;
 }
 
 .hero-img {
     display: flex;
     justify-content: center;
-    flex: 1;
 }
 
 .hero-img img {
     max-width: 70%;
-    min-width: 600px;
     height: auto;
     border-radius: 8px;
     justify-content: center;
